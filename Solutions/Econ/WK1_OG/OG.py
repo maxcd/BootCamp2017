@@ -262,7 +262,7 @@ def tpi(b_ss, K_ss, T_max, max_iters, eps_tol, xi, *args):
 
         iters += 1
         if iters == max_iters:
-            print('maximum itterations reached')
+            print('maximum iterations reached')
             break
 
     return bvec

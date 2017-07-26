@@ -46,4 +46,4 @@ def rouwen(rho, mu, step, num):
         print('Problem in rouwen routine!')
         return None
     else:
-        return transP, dscSp
+        return transP.T, dscSp
